@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.flot
+//= require jquery.flot.pie
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks

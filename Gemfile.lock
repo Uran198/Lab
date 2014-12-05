@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/Kjarrigan/flot-rails.git
+  revision: 70a0539f5e85faf630d5e6a4ed6ddc26eb8371c9
+  specs:
+    flot-rails (0.0.4)
+      jquery-rails (>= 2.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -146,6 +153,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  flot-rails!
   jbuilder (~> 2.0)
   jquery-rails
   pg

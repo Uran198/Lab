@@ -15,7 +15,7 @@ module SolverHelper
       logger.info "Inverting the matrix.."
       return (a.t * a).inv * a.t
     else
-      logger.fatal "Got not a matrix" 
+      logger.fatal "Got not a matrix"
     end
   end
 
