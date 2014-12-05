@@ -13,6 +13,7 @@ module SolverHelper
   def inv(a)
     if a.is_a? Matrix
       logger.info "Inverting the matrix.."
+      return (a.t * a).inv * a.t
     else
       logger.fatal "Got not a matrix" 
     end

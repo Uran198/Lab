@@ -13,6 +13,9 @@ require 'rails_helper'
 RSpec.describe SolverHelper, :type => :helper do
   describe "inverting a matrix" do
     let(:x) { Matrix[[1,2],[3,4]] }
+    it "works" do
+      expect(helper.inv(x) * x).to eq Matrix[[1,0],[0,1]]
+    end
     describe "logs inverting" do
       it "logs successfull inverting" do
         expect(Rails.logger).to receive(:info)
